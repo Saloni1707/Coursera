@@ -1,5 +1,5 @@
 const mongoose = require ("mongoose");
-mongoose.connect("mongodb+srv://SaloniAtole:Qs72aKQ7eaZHkiuF@cluster0.po79z.mongodb.net/Coursera-app");
+mongoose.connect("");
 const user = require("./routes/user");
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.type.ObjectId;
